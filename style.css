@@ -1,0 +1,150 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+:root {
+    --color-bg: #1e1e2e;
+    --color-fg: #6c80c2;
+    --color-link: #cba6f7;
+    --color-link-visited: #cba6f7;
+    --color-link-hover: #74c7ec;
+}
+
+html, body {
+  background-image: radial-gradient(#313244 0.5px, #1e1e2e 0.5px);
+  background-size: 10px 10px;
+  color: var(--color-fg);
+  font-family: "Hurmit Nerd Font", monospace;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 460px 600px 1fr;
+  grid-template-areas:
+    ". left right .";
+  column-gap: 10px;
+  justify-items: left;
+  align-items: center;
+  min-height: 100%;
+}
+
+.left {
+  grid-area: left;
+  aspect-ratio: 1/1;
+}
+
+.right {
+  grid-area: right;
+  width: 100%;
+  background-color: #11111b;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  border-radius: 20px;
+}
+
+.image img {
+  max-height: 500px;
+  border-radius: 20px;
+  border: 5px solid var(--color-fg);
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 24px;
+  font-size: 16px;
+  padding-top: 15px;
+
+}
+
+.head2 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 24px;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+}
+
+.bookmarks {
+  display: flex;
+  justify-content: center;
+}
+
+.search-form {
+  width: 20rem;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  background-color: #1e1e2e;
+  color: var(--color-fg);
+  font-size: 14px;
+  padding: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.title {
+  font-size: 16px;
+  padding-bottom: 7.5px;
+  color: hwb(308 52% 4%);
+
+}
+
+li {
+  font-size:14px;
+  list-style-type: none;
+  padding: 5px;
+}
+
+a:link {
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+a:visited {
+  color: var(--color-link-visited);
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+.nf{
+  font-size: 18px;
+}
+
+li a .nf {
+  color: var(--color-link);
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
