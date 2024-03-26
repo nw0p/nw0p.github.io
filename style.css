@@ -47,7 +47,7 @@ html, body {
 .image img {
   max-height: 500px;
   border-radius: 10px;
-  border: 5px solid var(--color-fg);
+  border: 3px solid var(--color-fg);
 }
 
 .head {
@@ -71,16 +71,6 @@ html, body {
   justify-content: center;
 }
 
-.search-form {
-  width: 20rem;
-  outline: none;
-  border: none;
-  border-radius: 15px;
-  background-color: #1e1e2e;
-  color: var(--color-fg);
-  font-size: 14px;
-  padding: 10px;
-}
 
 .links {
   display: flex;
