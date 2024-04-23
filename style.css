@@ -2,9 +2,9 @@
 
 :root {
     --color-bg: #1e1e2e;
-    --color-fg: #b4befe;
-    --color-link: #cba6f7;
-    --color-link-visited: #cba6f7;
+    --color-fg: #94e2d5;
+    --color-link: #62d4c1;
+    --color-link-visited: #62d4c1;
     --color-link-hover: #74c7ec;
 }
 
@@ -128,4 +128,6 @@ li a .nf {
     opacity: 1;
   }
 }
+
+
 
