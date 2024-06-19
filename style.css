@@ -3,8 +3,8 @@
 :root {
     --color-bg: #1e1e2e;
     --color-fg: #f5c2e7;
-    --color-link: #f5c2e7;
-    --color-link-visited: #f5c2e7;
+    --color-link: #ffffff;
+    --color-link-visited: #ffffff;
     --color-link-hover: #74c7ec;
 }
 
@@ -84,7 +84,7 @@ html, body {
 .title {
   font-size: 16px;
   padding-bottom: 7.5px;
-  color: #db6ae6
+  color: #f5c2e7
 
 }
 
@@ -128,8 +128,6 @@ li a .nf {
     opacity: 1;
   }
 }
-
-
 
 
 
