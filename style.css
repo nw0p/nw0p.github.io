@@ -5,7 +5,7 @@
     --color-fg: #89b4fa;
     --color-link: #ffffff;
     --color-link-visited: #ffffff;
-    --color-link-hover: #74c7ec;
+    --color-link-hover: #b4befe;
 }
 
 html, body {
@@ -84,7 +84,7 @@ html, body {
 .title {
   font-size: 16px;
   padding-bottom: 7.5px;
-  color: #89b4fa
+  color: #b4befe
 
 }
 
