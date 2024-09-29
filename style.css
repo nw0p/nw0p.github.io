@@ -1,15 +1,15 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 
 :root {
-    --color-bg: #1e1e2e;
-    --color-fg: #89b4fa;
+    --color-bg: #2C2C2C;
+    --color-fg: #ffffff;
     --color-link: #ffffff;
     --color-link-visited: #ffffff;
     --color-link-hover: #b4befe;
 }
 
 html, body {
-  background-image: radial-gradient(#313244 0.5px, #1e1e2e 0.5px);
+  background-image: radial-gradient(#313244 0.5px, #2C2C2C 0.5px);
   background-size: 10px 10px;
   color: var(--color-fg);
   font-family: "Hurmit Nerd Font", monospace;
@@ -38,7 +38,7 @@ html, body {
 .right {
   grid-area: right;
   width: 100%;
-  background-color: #11111b;
+  background-color: #242323;
   padding-bottom: 30px;
   padding-left: 15px;
   border-radius: 20px;
@@ -84,7 +84,7 @@ html, body {
 .title {
   font-size: 16px;
   padding-bottom: 7.5px;
-  color: #b4befe
+  color: #ffffff
 
 }
 
@@ -128,6 +128,8 @@ li a .nf {
     opacity: 1;
   }
 }
+
+
 
 
 
